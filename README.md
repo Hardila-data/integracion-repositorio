@@ -1,6 +1,7 @@
 # Contador Fastapi - JavaScript
-Este repositorio posee un código ejemplo de una aplicacion basica creada con FastAPI.
-La aplicación retorna un HTML básico con un poco de JavaScript para implementar un contador.
+## Descripción
+ Este repositorio posee un código ejemplo de una aplicacion basica creada con FastAPI.
+ La aplicación retorna un HTML básico con un poco de JavaScript para implementar un contador.
 
 ## Contenido
 . FastAPI: Implementa el servidor
