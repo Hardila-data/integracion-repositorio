@@ -2,7 +2,7 @@ from fastapi import FastAPI, Request
 from fastapi.responses import HTMLResponse
 from fastapi.templating import Jinja2Templates
 # Dummy api Key
-api_key_example = "ghp_1234567890abcdefghijklmnopqrstuvwxyz1234"
+API_KEY = '12345-ABCDE-67890-FGHIJ'
 # Initialize the app
 app = FastAPI()
 # Get the templates
