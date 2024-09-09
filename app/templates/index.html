@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador</title>
+</head>
+<body>
+   <h1>Contador Ejemplo</h1> 
+   <p>
+    contador:
+    <span id="contador_value"> 0 </span>
+   </p>
+   <button id="contador_btn"> Incrementar</button>
+    <script>
+        // Function incrementar
+        function incrementar(e){
+            e.preventDefault()
+            // Get the contador value
+            var contador_value = document.getElementById('contador_value')
+            var current_value = parseInt(contador_value.innerText)
+            contador_value.innerText = current_value + 1
+        }
+
+        window.onload = function() {
+            //Get the button 
+            var btn_incrementar = document.getElementById('contador_btn')
+            btn_incrementar.addEventListener('click',incrementar)
+        }
+
+   </script>
+   
+
+</body>
+
+</html>
